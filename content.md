@@ -67,6 +67,8 @@ count: false
   + LaTeX als Textsatzprogramm etablieren
   + *Computer literacy* stärken
   + wissenschaftliche Professionalität stützen
+- **Bausteine:**
+  + Zotero & LaTeX, APA konform zitieren, Lebensläufe, Geschäftsbriefe, Quellcode (tbc.)
 ]
 .fifty[
 <img src="img/program.svg">
@@ -84,16 +86,17 @@ count: false
 
 # LaTeX-Paket listings
 
-- alle Lebenslaufelemente als vordefinierte Makros, e.g.
-  + Datum: `date`
-  + Ort: `cvplace`
-  + Abschnitte: `cvlist`
+- Elemente der Quellcodedarstellung als vordefinierte Variablen, e.g.
+  + Sprache: `language`
+  + Einrückungstiefe: `tabsize`
+  + Rahmen: `frame`
 - Alternativen, e.g.
-  + [vita](https://ctan.org/pkg/vita)
-  + [cv](https://ctan.org/pkg/cv)
-  + [ecv](https://ctan.org/pkg/ecv)
-- ähnliche Konzepte, unterschiedliche Makrobenamung, e.g.
-  + `cvlist` → `ecvSec`
+  + [verbatim](http://www.weinelt.de/latex/verbatim.html)
+  + [fancyvrb](https://ctan.org/pkg/fancyvrb)
+  + [minted](https://ctan.org/pkg/minted)
+- vergleichbare Konzepte, unterschiedliche Ansätze, i.e.
+  + `verbatim`: Basisumgebung
+  + `minted` basiert auf [Pygments](https://pygments.org/)
 
 ---
 
