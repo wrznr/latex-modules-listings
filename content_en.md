@@ -71,7 +71,7 @@ count: false
   + Zotero & LaTeX, APA-compliant citation, resumes, business letters, source code (tbc.)
 ]
 .fifty[
-<img src="img/program.svg">
+<img src="img/program_en.svg">
 ]
 ]
 
