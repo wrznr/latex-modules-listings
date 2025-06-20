@@ -112,8 +112,6 @@ count: false
 
 ---
 
----
-
 # Basic Usage 1
 
 ```latex
