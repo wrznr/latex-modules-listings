@@ -100,6 +100,18 @@ count: false
 
 ---
 
+# Alternatives Compared
+
+| Package    | Pros                             | Cons / Prerequisites               |
+|------------|----------------------------------|------------------------------------|
+| `verbatim` | Built-in, very simple            | No syntax highlighting             |
+| `fancyvrb` | Flexible formatting              | Still no highlighting              |
+| `minted`   | High-quality coloring via Pygments | Requires Python, shell-escape    |
+
+➡️ **`listings`** great middle-ground option.
+
+---
+
 class: part-slide
 count: false
 
