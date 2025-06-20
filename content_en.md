@@ -112,6 +112,41 @@ count: false
 
 ---
 
+---
+
+# Basic Usage 1
+
+```latex
+\usepackage{listings}
+\lstset{
+  language=Python,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray}\itshape,
+  tabsize=2,
+  frame=single,
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  breaklines=true
+}
+```
+
+---
+
+Basic Usage 2
+
+```latex
+\begin{lstlisting}
+def greet(name):
+  # Greet the user
+  print(f"Hello, {name}!")
+\end{lstlisting}
+```
+
+✅ Nicely styled, framed, numbered Python code.
+
+---
+
 class: part-slide
 count: false
 
