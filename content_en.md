@@ -131,7 +131,7 @@ count: false
 
 ---
 
-Basic Usage 2
+# Basic Usage 2
 
 ```latex
 \begin{lstlisting}
