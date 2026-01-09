@@ -6,7 +6,7 @@ layout: true
   <table>
     <tr>
       <td style="text-align:right">Saxon State Library – State and University Library</td>
-      <td>02.02.2023</td>
+      <td>20th June 25</td>
       <td style="text-align:right"><a href="https://www.slub-dresden.de/">www.slub-dresden.de</a></td>
     </tr>
     <tr>
@@ -25,7 +25,7 @@ layout: true
       <td style="text-align:left">Research-related services</td>
     </tr>
     <tr>
-      <td style="font-size:8pt"><b>13.06.2024</b></td>
+      <td style="font-size:8pt"><b>20th June 2025</b></td>
     </tr>
     <tr>
       <td style="font-size:8pt">LaTeX@SLUB</td>
@@ -97,6 +97,51 @@ count: false
 - Comparable concepts, different approaches, i.e.
   + `verbatim`: Basic environment
   + `minted` based on [Pygments](https://pygments.org/)
+
+---
+
+# Alternatives Compared
+
+| Package    | Pros                             | Cons / Prerequisites               |
+|------------|----------------------------------|------------------------------------|
+| `verbatim` | Built-in, very simple            | No syntax highlighting             |
+| `fancyvrb` | Flexible formatting              | Still no highlighting              |
+| `minted`   | High-quality coloring via Pygments | Requires Python, shell-escape    |
+
+➡️ **`listings`** great middle-ground option.
+
+---
+
+# Basic Usage 1
+
+```latex
+\usepackage{listings}
+\lstset{
+  language=Python,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray}\itshape,
+  tabsize=2,
+  frame=single,
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  breaklines=true
+}
+```
+
+---
+
+# Basic Usage 2
+
+```latex
+\begin{lstlisting}
+def greet(name):
+  # Greet the user
+  print(f"Hello, {name}!")
+\end{lstlisting}
+```
+
+✅ Nicely styled, framed, numbered Python code.
 
 ---
 
