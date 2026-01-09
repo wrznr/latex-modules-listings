@@ -6,7 +6,7 @@ layout: true
   <table>
     <tr>
       <td style="text-align:right">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
-      <td>02.02.2023</td>
+      <td>09.01.2026</td>
       <td style="text-align:right"><a href="https://www.slub-dresden.de/">www.slub-dresden.de</a></td>
     </tr>
     <tr>
@@ -25,7 +25,7 @@ layout: true
       <td style="text-align:left">Referat 4.3</td>
     </tr>
     <tr>
-      <td style="font-size:8pt"><b>04.12.2023</b></td>
+      <td style="font-size:8pt"><b>09.01.2026</b></td>
     </tr>
     <tr>
       <td style="font-size:8pt">LaTeX@SLUB</td>
@@ -47,7 +47,7 @@ count: false
 
 - LaTeX@SLUB
 - LaTeX-Paket [`listings`](https://ctan.org/pkg/listings)
-- Hands-on in [`ShareLatex`](https://tex.zih.tu-dresden.de/)
+- Hands-on in [`Overleaf`](https://tex.zih.tu-dresden.de/)
 
 ---
 
@@ -97,6 +97,21 @@ count: false
 - vergleichbare Konzepte, unterschiedliche Ansätze, i.e.
   + `verbatim`: Basisumgebung
   + `minted` basiert auf [Pygments](https://pygments.org/)
+
+---
+
+# LaTeX-Paket listings
+
+- **Konfiguration** (`\lstset`)
+  + Sprache: `language=Python`
+  + Style: Farben, Rahmen, Nummern
+- **Anwendung**
+  + **Code-Block:** Umgebung für längere Ausschnitte
+    `\begin{lstlisting} ... \end{lstlisting}`
+  + **Inline-Code:** Befehl für Fließtext
+    `\lstinline|print("Hello")|`
+  + **Import:** Aus externer Datei
+    `\lstinputlisting{script.py}`
 
 ---
 
