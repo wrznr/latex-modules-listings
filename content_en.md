@@ -6,7 +6,7 @@ layout: true
   <table>
     <tr>
       <td style="text-align:right">Saxon State Library – State and University Library</td>
-      <td>20th June 25</td>
+      <td>23rd November 26</td>
       <td style="text-align:right"><a href="https://www.slub-dresden.de/">www.slub-dresden.de</a></td>
     </tr>
     <tr>
@@ -25,7 +25,7 @@ layout: true
       <td style="text-align:left">Research-related services</td>
     </tr>
     <tr>
-      <td style="font-size:8pt"><b>20th June 2025</b></td>
+      <td style="font-size:8pt"><b>23rd November 2026</b></td>
     </tr>
     <tr>
       <td style="font-size:8pt">LaTeX@SLUB</td>
